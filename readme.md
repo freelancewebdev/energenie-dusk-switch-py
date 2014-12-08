@@ -33,3 +33,18 @@ You should also change the 'city' variable in the timer.py script to
 your closest city for correct calculation of dusk - see the Astral docs for further information about the location related dependencies of the script.
 
 Cron should then call the script at the appropriate time (earliest possible sunset) and wait until dusk as determined by Astral before switching on the socket.
+
+## Extras
+The script switch.py allows you to switch on and off the socket.  
+
+To switch on the socket call 
+
+```
+sudo python /path/to/script/switch.py 1
+```
+
+and to turn off the socket call
+
+```
+sudo python /path/to/script/switch.py 0
+```
