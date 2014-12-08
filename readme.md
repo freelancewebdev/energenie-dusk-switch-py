@@ -1,6 +1,6 @@
 #Energenie Dusk Switch
 #Introduction
-[Energenie](https://energenie4u.co.uk/) provide the [Pi-mate addon board](https://energenie4u.co.uk/index.php/catalogue/product/ENER314) which allows Raspberry Pi owners to safely and easily control electrical devices safely and easily without the need to hook up a relay to the GPIO pins of the Pi.
+[Energenie](https://energenie4u.co.uk/) provide the [Pi-mate addon board](https://energenie4u.co.uk/index.php/catalogue/product/ENER314) which allows Raspberry Pi owners to safely and easily control electrical devices without the need to hook up a relay to the GPIO pins of the Pi.
 
 This is a simple script which turns a trained Energenie socket to the on position at dusk each day using the [Astral module](https://pypi.python.org/pypi/astral) for Python to calculate the time of dusk for a given location. 
 
